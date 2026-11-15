@@ -1,0 +1,28 @@
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/'
+}
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\All Data of Desktop with documents\Sehat AI\.next\cache\webpack\client-development\2.pack.gz_' -> 'D:\All Data of Desktop with documents\Sehat AI\.next\cache\webpack\client-development\2.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\All Data of Desktop with documents\Sehat AI\.next\cache\webpack\client-development\0.pack.gz_' -> 'D:\All Data of Desktop with documents\Sehat AI\.next\cache\webpack\client-development\0.pack.gz'
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'D:\All Data of Desktop with documents\Sehat AI\.next-sehat\cache\webpack\client-development\0.pack.gz_' -> 'D:\All Data of Desktop with documents\Sehat AI\.next-sehat\cache\webpack\client-development\0.pack.gz'
+ ⚠ Found a change in next.config.ts. Restarting the server to apply the changes...
+ ⨯ [Error: Cannot find module 'D:\All Data of Desktop with documents\Sehat AI\.next\server\middleware-manifest.json'
+Require stack:
+- D:\All Data of Desktop with documents\Sehat AI\node_modules\next\dist\server\next-server.js
+- D:\All Data of Desktop with documents\Sehat AI\node_modules\next\dist\server\dev\next-dev-server.js
+- D:\All Data of Desktop with documents\Sehat AI\node_modules\next\dist\server\next.js
+- D:\All Data of Desktop with documents\Sehat AI\node_modules\next\dist\server\lib\start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}
+ ⨯ [Error: ENOENT: no such file or directory, open 'D:\All Data of Desktop with documents\Sehat AI\.next\routes-manifest.json'] {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'D:\\All Data of Desktop with documents\\Sehat AI\\.next\\routes-manifest.json'
+}

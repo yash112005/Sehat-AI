@@ -1,0 +1,128 @@
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling /doctor ...
+ ✓ Compiled /doctor in 2.6s (722 modules)
+ GET /doctor 200 in 3066ms
+ ○ Compiling /patient/symptoms ...
+ ✓ Compiled /patient/symptoms in 1540ms (733 modules)
+ GET /patient/symptoms 200 in 1914ms
+ ✓ Compiled /patient/emergency in 424ms (729 modules)
+ GET /patient/emergency 200 in 617ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1225ms (748 modules)
+ GET / 200 in 2269ms
+ ○ Compiling /start ...
+ ✓ Compiled /start in 535ms (677 modules)
+ GET /start 200 in 897ms
+ ○ Compiling /patient ...
+ ✓ Compiled /patient in 1199ms (728 modules)
+ GET /patient 200 in 1603ms
+ ○ Compiling /patient/guide ...
+ ✓ Compiled /patient/guide in 648ms (741 modules)
+ GET /patient/guide 200 in 896ms
+ GET /patient/guide 200 in 89ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 1069ms (742 modules)
+ POST /api/analyze 200 in 9348ms
+ ○ Compiling /api/tts ...
+ ✓ Compiled /api/tts in 601ms (744 modules)
+ POST /api/tts 200 in 3313ms
+ ✓ Compiled /patient in 291ms (462 modules)
+ GET /patient 200 in 670ms
+ ○ Compiling /patient/reports ...
+ ✓ Compiled /patient/reports in 1383ms (770 modules)
+ GET /patient/reports 200 in 1634ms
+ POST /api/analyze 200 in 54356ms
+ POST /api/analyze 200 in 11388ms
+ POST /api/tts 500 in 882ms
+ POST /api/analyze 200 in 11873ms
+ POST /api/tts 500 in 293ms
+ POST /api/analyze 200 in 5447ms
+ GET /patient/reports 200 in 810ms
+ ○ Compiling /patient/emergency ...
+ ✓ Compiled /patient/emergency in 985ms (482 modules)
+ GET /patient/emergency 200 in 1356ms
+ ○ Compiling /patient/appointments ...
+ ✓ Compiled /patient/appointments in 1445ms (793 modules)
+ GET /patient/appointments 200 in 1723ms
+ ○ Compiling /patient/history ...
+ ✓ Compiled /patient/history in 916ms (805 modules)
+ GET /patient/history 200 in 1106ms
+ ○ Compiling /reports ...
+ ✓ Compiled /reports in 944ms (805 modules)
+ GET /reports 200 in 1387ms
+ ✓ Compiled /doctor in 480ms (485 modules)
+ GET /doctor 200 in 827ms
+ GET /doctor 200 in 433ms
+ ○ Compiling /api/stt ...
+ ✓ Compiled /api/stt in 1655ms (788 modules)
+ POST /api/stt 200 in 4990ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 556ms (484 modules)
+ POST /api/analyze 200 in 5687ms
+ ○ Compiling /api/tts ...
+ ✓ Compiled /api/tts in 730ms (486 modules)
+ POST /api/tts 200 in 3941ms
+ POST /api/analyze 200 in 4390ms
+ POST /api/tts 200 in 2438ms
+ POST /api/tts 200 in 1789ms
+ ✓ Compiled in 763ms (323 modules)
+ ✓ Compiled in 960ms (323 modules)
+ ✓ Compiled in 381ms (323 modules)
+ ✓ Compiled in 2.8s (785 modules)
+ ✓ Compiled in 1147ms (785 modules)
+ ○ Compiling /patient/guide ...
+ ✓ Compiled /patient/guide in 833ms (469 modules)
+ GET /patient/guide 200 in 1888ms
+ GET /patient/emergency 200 in 235ms
+ ○ Compiling /patient/reports ...
+ ✓ Compiled /patient/reports in 731ms (476 modules)
+ GET /patient/reports 200 in 1342ms
+ ○ Compiling /patient/symptoms ...
+ ✓ Compiled /patient/symptoms in 663ms (483 modules)
+ GET /patient/symptoms 200 in 1079ms
+ ○ Compiling /doctor/reports ...
+ ✓ Compiled /doctor/reports in 840ms (808 modules)
+ GET /doctor/reports 200 in 1279ms
+ ○ Compiling /patient ...
+ ✓ Compiled /patient in 1252ms (491 modules)
+ GET /patient 200 in 2013ms
+ GET /patient/guide 200 in 258ms
+ GET /patient/emergency 200 in 338ms
+ GET /doctor/reports 200 in 346ms
+ GET /doctor 200 in 353ms
+ GET /patient 200 in 206ms
+ GET /patient/symptoms 200 in 106ms
+ GET /patient/guide 200 in 94ms
+ ○ Compiling /api/tts ...
+ ✓ Compiled /api/tts in 792ms (495 modules)
+ POST /api/tts 200 in 3035ms
+ POST /api/tts 429 in 659ms
+ POST /api/tts 200 in 3135ms
+ POST /api/tts 200 in 2003ms
+ POST /api/tts 200 in 1613ms
+ ✓ Compiled in 1569ms (323 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1877ms (1126 modules)
+ GET /patient/guide 500 in 2739ms
+ GET /patient/guide 200 in 673ms
+ GET /patient/guide 200 in 64ms
+ GET /patient/guide 200 in 55ms
+ GET /patient/guide 200 in 294ms
+ ✓ Compiled in 3.4s (1140 modules)
+ GET /patient/guide 200 in 1171ms
+ ✓ Compiled in 26.9s (1178 modules)
+ GET /patient/guide 200 in 568ms
+ ✓ Compiled in 1947ms (1075 modules)
+ GET /patient/guide 200 in 487ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.9s (1107 modules)
+ GET / 200 in 4151ms
+ GET /patient/guide 200 in 220ms
+ GET /patient 200 in 274ms
+ GET /doctor 200 in 362ms

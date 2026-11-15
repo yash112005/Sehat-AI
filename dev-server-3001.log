@@ -1,0 +1,17 @@
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3001
+   - Network:      http://127.0.0.1:3001
+
+ ✓ Starting...
+ ✓ Ready in 3.3s
+ ○ Compiling / ...
+ ✓ Compiled / in 6.5s (605 modules)
+ GET / 200 in 8218ms
+ GET / 200 in 762ms
+ ○ Compiling /api/stt ...
+ ✓ Compiled /api/stt in 2.9s (625 modules)
+ POST /api/stt 503 in 3589ms
+ GET / 200 in 269ms
+ GET / 200 in 1819ms
+ POST /api/stt 503 in 131ms
+[?25h

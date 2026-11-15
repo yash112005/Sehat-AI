@@ -1,0 +1,242 @@
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 10.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 1881ms (591 modules)
+ GET / 200 in 2760ms
+ ○ Compiling /api/stt ...
+ ✓ Compiled /api/stt in 539ms (611 modules)
+ POST /api/stt 400 in 799ms
+ GET / 200 in 1015ms
+ POST /api/stt 500 in 1897ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 1042ms (614 modules)
+ POST /api/analyze 200 in 8942ms
+ ✓ Compiled /api/tts in 468ms (616 modules)
+ POST /api/tts 500 in 894ms
+ POST /api/tts 500 in 776ms
+ POST /api/stt 500 in 1450ms
+ POST /api/stt 500 in 1910ms
+ POST /api/analyze 200 in 41346ms
+ GET / 200 in 1213ms
+ POST /api/stt 500 in 1262ms
+ POST /api/stt 500 in 5095ms
+ POST /api/stt 500 in 8771ms
+ POST /api/stt 500 in 11653ms
+ POST /api/stt 500 in 15421ms
+ POST /api/stt 500 in 7183ms
+ POST /api/stt 500 in 9449ms
+ POST /api/analyze 200 in 25463ms
+ ✓ Compiled in 3.5s (606 modules)
+ GET / 200 in 437ms
+ ✓ Compiled in 1271ms (606 modules)
+ GET / 200 in 304ms
+ ✓ Compiled /api/stt in 230ms (368 modules)
+ POST /api/stt 400 in 431ms
+ GET / 200 in 105ms
+ ✓ Compiled /api/tts in 109ms (370 modules)
+ GET / 200 in 139ms
+ POST /api/tts 200 in 1366ms
+ ✓ Compiled /api/analyze in 157ms (373 modules)
+ POST /api/analyze 200 in 7270ms
+ POST /api/tts 200 in 928ms
+ POST /api/stt 200 in 2633ms
+ POST /api/analyze 200 in 9334ms
+ GET / 200 in 833ms
+ POST /api/stt 429 in 22092ms
+ POST /api/stt 200 in 24598ms
+ POST /api/analyze 200 in 22168ms
+ POST /api/tts 429 in 821ms
+ POST /api/tts 429 in 779ms
+ POST /api/tts 429 in 876ms
+ POST /api/tts 200 in 12177ms
+ POST /api/tts 200 in 2603ms
+ POST /api/tts 200 in 9480ms
+ GET / 200 in 221ms
+ POST /api/stt 200 in 20863ms
+ POST /api/analyze 200 in 17211ms
+ POST /api/tts 200 in 15524ms
+ POST /api/stt 200 in 20644ms
+ POST /api/analyze 200 in 14172ms
+ POST /api/tts 200 in 3815ms
+ POST /api/tts 200 in 3646ms
+ GET / 200 in 281ms
+ POST /api/analyze 200 in 6667ms
+ POST /api/tts 200 in 3947ms
+ ✓ Compiled in 497ms (257 modules)
+ GET / 200 in 109ms
+ ✓ Compiled in 379ms (257 modules)
+ ✓ Compiled in 188ms (257 modules)
+ ✓ Compiled in 913ms (606 modules)
+ ✓ Compiled in 234ms (257 modules)
+ ✓ Compiled in 878ms (606 modules)
+ ✓ Compiled in 781ms (606 modules)
+ ✓ Compiled in 1438ms (620 modules)
+ GET / 200 in 860ms
+ ○ Compiling /api/analyze ...
+ ✓ Compiled /api/analyze in 603ms (376 modules)
+ POST /api/analyze 200 in 12500ms
+ ✓ Compiled in 925ms (620 modules)
+ ✓ Compiled in 599ms (620 modules)
+ GET / 200 in 684ms
+ ✓ Compiled /api/analyze in 180ms (376 modules)
+ POST /api/analyze 200 in 3759ms
+ GET / 200 in 504ms
+ POST /api/analyze 200 in 7504ms
+ ✓ Compiled /api/tts in 383ms (378 modules)
+ POST /api/analyze 200 in 5002ms
+ POST /api/tts 200 in 8010ms
+ POST /api/analyze 200 in 6086ms
+ POST /api/tts 429 in 157ms
+ POST /api/analyze 200 in 4887ms
+ POST /api/tts 200 in 5857ms
+ POST /api/analyze 200 in 3001ms
+ POST /api/tts 200 in 7235ms
+ POST /api/tts 200 in 3197ms
+ POST /api/analyze 200 in 6815ms
+ POST /api/analyze 200 in 14248ms
+ GET / 200 in 670ms
+ ✓ Compiled in 512ms (264 modules)
+ ✓ Compiled in 231ms (264 modules)
+ GET / 200 in 145ms
+ GET / 200 in 59ms
+ ✓ Compiled in 335ms (264 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 4.6s (963 modules)
+ GET / 500 in 5343ms
+ GET / 200 in 482ms
+ GET / 200 in 224ms
+ GET / 200 in 49ms
+ GET / 200 in 514ms
+ ✓ Compiled in 705ms (417 modules)
+ GET / 200 in 80ms
+ ✓ Compiled in 367ms (416 modules)
+ GET / 200 in 89ms
+ ✓ Compiled in 207ms (416 modules)
+ GET / 200 in 66ms
+ ✓ Compiled in 130ms (416 modules)
+ GET / 200 in 46ms
+ ✓ Compiled in 113ms (416 modules)
+ GET / 200 in 47ms
+ ✓ Compiled in 587ms (862 modules)
+ GET / 200 in 169ms
+ ✓ Compiled in 121ms (416 modules)
+ GET / 200 in 36ms
+ ✓ Compiled in 135ms (416 modules)
+ GET / 200 in 43ms
+ ✓ Compiled in 258ms (862 modules)
+ GET / 200 in 114ms
+ ✓ Compiled in 184ms (416 modules)
+ GET / 200 in 41ms
+ ✓ Compiled in 151ms (416 modules)
+ GET / 200 in 123ms
+ ✓ Compiled in 218ms (862 modules)
+ GET / 200 in 83ms
+ ✓ Compiled in 112ms (416 modules)
+ GET / 200 in 40ms
+ ✓ Compiled in 95ms (416 modules)
+ GET / 200 in 33ms
+ ✓ Compiled in 336ms (862 modules)
+ GET / 200 in 62ms
+ ✓ Compiled in 113ms (416 modules)
+ GET / 200 in 31ms
+ ✓ Compiled in 101ms (416 modules)
+ GET / 200 in 36ms
+ GET / 200 in 193ms
+ ✓ Compiled in 474ms (876 modules)
+ GET / 200 in 114ms
+ ✓ Compiled /_error in 949ms (977 modules)
+ GET / 500 in 1290ms
+ ✓ Compiled in 157ms (417 modules)
+ GET / 200 in 158ms
+ ✓ Compiled in 245ms (963 modules)
+ ✓ Compiled in 115ms (417 modules)
+ ✓ Compiled in 130ms (417 modules)
+ ✓ Compiled in 218ms (963 modules)
+ ✓ Compiled in 115ms (417 modules)
+ ✓ Compiled in 117ms (417 modules)
+ ✓ Compiled in 200ms (963 modules)
+ ✓ Compiled in 157ms (594 modules)
+ ✓ Compiled in 251ms (580 modules)
+ ✓ Compiled in 630ms (493 modules)
+ ✓ Compiled in 111ms (379 modules)
+ ✓ Compiled in 108ms (379 modules)
+ ✓ Compiled in 158ms (479 modules)
+ ✓ Compiled in 869ms (379 modules)
+ ✓ Compiled in 377ms (379 modules)
+ ✓ Compiled in 145ms (379 modules)
+ ✓ Compiled in 124ms (379 modules)
+ ✓ Compiled in 104ms (379 modules)
+ ✓ Compiled in 247ms (379 modules)
+ ✓ Compiled in 174ms (379 modules)
+ ✓ Compiled in 147ms (379 modules)
+ ✓ Compiled in 131ms (379 modules)
+ ✓ Compiled in 321ms (379 modules)
+ ✓ Compiled in 231ms (379 modules)
+ ✓ Compiled in 335ms (379 modules)
+ ✓ Compiled in 124ms (379 modules)
+ ✓ Compiled in 128ms (379 modules)
+ ✓ Compiled in 169ms (379 modules)
+ ✓ Compiled in 822ms (379 modules)
+ ✓ Compiled in 211ms (379 modules)
+ ✓ Compiled in 187ms (379 modules)
+ ✓ Compiled in 394ms (479 modules)
+ ✓ Compiled in 192ms (379 modules)
+ ✓ Compiled in 193ms (379 modules)
+ ✓ Compiled in 180ms (479 modules)
+ ✓ Compiled in 261ms (379 modules)
+ ✓ Compiled in 182ms (379 modules)
+ ✓ Compiled in 219ms (479 modules)
+ ✓ Compiled in 236ms (379 modules)
+ ✓ Compiled in 173ms (379 modules)
+ ✓ Compiled in 173ms (479 modules)
+ ✓ Compiled in 349ms (379 modules)
+ ✓ Compiled in 119ms (379 modules)
+ ✓ Compiled in 173ms (379 modules)
+ ✓ Compiled in 141ms (379 modules)
+ ✓ Compiled in 498ms (479 modules)
+ ✓ Compiled in 133ms (379 modules)
+ ✓ Compiled in 155ms (379 modules)
+ ✓ Compiled in 183ms (479 modules)
+ ✓ Compiled in 234ms (379 modules)
+ ✓ Compiled in 172ms (379 modules)
+ ✓ Compiled in 237ms (479 modules)
+ ✓ Compiled in 135ms (379 modules)
+ ✓ Compiled in 144ms (379 modules)
+ ✓ Compiled in 160ms (479 modules)
+ ✓ Compiled in 218ms (379 modules)
+ ✓ Compiled in 376ms (479 modules)
+ ✓ Compiled in 285ms (379 modules)
+ ✓ Compiled in 182ms (379 modules)
+ ✓ Compiled in 164ms (379 modules)
+ ✓ Compiled in 127ms (379 modules)
+ ✓ Compiled in 216ms (479 modules)
+ ✓ Compiled in 217ms (379 modules)
+ ✓ Compiled in 188ms (379 modules)
+ ✓ Compiled in 140ms (379 modules)
+ ✓ Compiled in 786ms (379 modules)
+ ✓ Compiled in 278ms (379 modules)
+ ✓ Compiled in 169ms (379 modules)
+ ✓ Compiled in 169ms (379 modules)
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.6s
+   ▲ Next.js 15.5.29
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 9.5s (620 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 7s (977 modules)

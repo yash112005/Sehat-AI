@@ -1,0 +1,15 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { Check, Languages, Volume2 } from "lucide-react";
+import { getUiLanguage, tr, type UiLanguage, uiLanguages } from "@/components/uiLanguage";
+
+const languages = [{ code: "hi-IN", name: "Hindi", native: "हिन्दी", voice: "Nalini" }, { code: "en-IN", name: "English", native: "English", voice: "Kaveri" }, { code: "mr-IN", name: "Marathi", native: "मराठी", voice: "Zahira" }, { code: "ta-IN", name: "Tamil", native: "தமிழ்", voice: "Trisha" }, { code: "te-IN", name: "Telugu", native: "తెలుగు", voice: "Lehara" }, { code: "gu-IN", name: "Gujarati", native: "ગુજરાતી", voice: "Falak" }, { code: "bn-IN", name: "Bengali", native: "বাংলা", voice: "Kirra" }, { code: "hi-IN", name: "Bhojpuri", native: "भोजपुरी · हिन्दी voice", voice: "Nalini" }];
+
+export default function SettingsPage() {
+  const [selected, setSelected] = useState("Hindi");
+  const [uiLanguage, setUiLanguage] = useState<UiLanguage>("hi");
+  useEffect(() => { const saved = localStorage.getItem("sehat-ai-language-name"); if (saved) setSelected(saved); setUiLanguage(getUiLanguage()); }, []);
+  const choose = (name: string, code: string) => { setSelected(name); localStorage.setItem("sehat-ai-language-name", name); localStorage.setItem("sehat-ai-language", code); setUiLanguage(code.slice(0,2) as UiLanguage); window.dispatchEvent(new Event("sehat-language-change")); };
+  return <main className="mx-auto max-w-4xl px-4 py-6 sm:px-7 sm:py-8"><div className="mb-6"><p className="text-xs font-bold uppercase tracking-[.16em] text-[#10A37F]">{tr(uiLanguage,"settings")}</p><h2 className="mt-1 text-2xl font-extrabold text-[#102A43]">{tr(uiLanguage,"chooseLanguage")}</h2><p className="mt-2 text-sm text-slate-500">{tr(uiLanguage,"languageSaved")}</p></div><section className="rounded-2xl border border-slate-100 bg-white p-5 shadow-sm sm:p-6"><div className="flex items-center gap-3"><span className="grid h-11 w-11 place-items-center rounded-xl bg-[#E8F8F2] text-[#087A55]"><Languages size={21} /></span><div><h3 className="font-extrabold text-[#102A43]">{tr(uiLanguage,"language")}</h3><p className="text-xs text-slate-500">Audio guide voice follows the selected language</p></div></div><div className="mt-5 grid gap-2 sm:grid-cols-2">{languages.map((language, index) => <button key={`${language.name}-${index}`} onClick={() => choose(language.name, language.code)} className={`flex items-center justify-between rounded-xl border p-4 text-left transition ${selected === language.name ? "border-[#10A37F] bg-[#E8F8F2]" : "border-slate-100 hover:border-[#10A37F]/50 hover:bg-slate-50"}`}><span><strong className="block text-sm text-[#102A43]">{language.native}</strong><small className="mt-1 flex items-center gap-1 text-xs text-slate-500"><Volume2 size={12} /> {language.voice}</small></span>{selected === language.name && <Check size={18} className="text-[#087A55]" />}</button>)}</div><p className="mt-4 rounded-xl bg-amber-50 p-3 text-xs leading-5 text-amber-900">भोजपुरी के लिए अभी Timbre Hindi voice fallback उपयोग होता है। भाषा preference आपके browser में रहती है; server पर profile save नहीं होती।</p></section></main>;
+}

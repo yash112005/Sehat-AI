@@ -1,0 +1,14 @@
+ ⨯ ./src/components/CaregiverContacts.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from D:\All Data of Desktop with documents\Sehat AI\src\components\CaregiverContacts.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./src/components/CaregiverContacts.tsx
+./src/app/(workspace)/patient/page.tsx
+ ⨯ SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>) {
+  page: '/patient/guide'
+}
